@@ -1,4 +1,4 @@
-# TravelGo — Responsive Website
+# TravelAgency — TravelGo Responsive Website
 
 A responsive travel and vehicle-rental landing page built with plain HTML, CSS, and JavaScript.
 The language selector translates the page into English, Hindi, Odia, or Tamil.
