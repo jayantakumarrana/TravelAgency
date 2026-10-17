@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TravelGo — discover destinations and find the right vehicle for your next adventure." data-i18n-content="meta.description">
+  <title data-i18n="meta.title">TravelGo | Explore the World With Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero" id="home">
+  <div class="hero-slideshow" aria-hidden="true">
+    <div class="hero-slide is-active" style="--slide-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&amp;fit=crop&amp;w=2200&amp;q=90')"></div>
+    <div class="hero-slide" style="--slide-image:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&amp;fit=crop&amp;w=2200&amp;q=90')"></div>
+    <div class="hero-slide" style="--slide-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&amp;fit=crop&amp;w=2200&amp;q=90')"></div>
+  </div>
+  <nav class="nav wrap" aria-label="Main navigation" data-i18n-aria="nav.label">
+    <a class="brand" href="#home"><span class="brand-mark">▲</span><span>Travel<span class="brand-blue">Go</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" data-i18n-aria="nav.toggle" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="nav-links"><a href="#vehicles" data-i18n="nav.vehicles">Vehicles</a><a href="#destinations" data-i18n="nav.destinations">Destinations</a><a href="#reviews" data-i18n="nav.reviews">Reviews</a><a href="#contact" data-i18n="nav.contact">Contact</a></div>
+    <div class="nav-actions">
+      <label class="language-picker"><span class="language-icon" aria-hidden="true">🌐</span><span class="visually-hidden" data-i18n="language.label">Choose language</span><select id="language-select" aria-label="Choose language" data-i18n-aria="language.label"><option value="en">English</option><option value="hi">हिन्दी</option><option value="or">ଓଡ଼ିଆ</option><option value="ta">தமிழ்</option></select></label>
+      <a class="nav-cta" href="#vehicles"><span data-i18n="nav.cta">Find your ride</span><span aria-hidden="true">↗</span></a>
+    </div>
+  </nav>
+  <div class="hero-content wrap">
+    <p class="eyebrow" data-i18n="hero.eyebrow">YOUR NEXT ADVENTURE AWAITS</p>
+    <h1><span data-i18n="hero.heading.first">Explore The World</span><br><span data-i18n="hero.heading.second">With Us</span></h1>
+    <p class="hero-copy"><span data-i18n="hero.copy.first">Discover amazing destinations, create unforgettable</span><br class="desktop-only"> <span data-i18n="hero.copy.second">memories and experience the beauty of our planet.</span></p>
+    <a class="button button-primary" href="#destinations"><span data-i18n="hero.cta">Explore destinations</span><span aria-hidden="true">→</span></a>
+  </div>
+</header>
+<main>
+  <section class="benefits wrap" aria-label="Why travel with us" data-i18n-aria="benefits.label">
+    <article class="benefit"><span class="benefit-icon blue">✈</span><div><h3 data-i18n="benefits.price.title">Best Price Guarantee</h3><p data-i18n="benefits.price.copy">Great value for your next journey.</p></div></article>
+    <article class="benefit"><span class="benefit-icon green">✓</span><div><h3 data-i18n="benefits.safe.title">Safe &amp; Secure</h3><p data-i18n="benefits.safe.copy">Your safety is our top priority.</p></div></article>
+    <article class="benefit"><span class="benefit-icon purple">◉</span><div><h3 data-i18n="benefits.support.title">24/7 Support</h3><p data-i18n="benefits.support.copy">We're here whenever you need us.</p></div></article>
+    <article class="benefit"><span class="benefit-icon orange">☆</span><div><h3 data-i18n="benefits.experience.title">Top Rated Experiences</h3><p data-i18n="benefits.experience.copy">Loved by travelers around the world.</p></div></article>
+  </section>
+
+  <section class="section vehicles-section" id="vehicles"><div class="wrap">
+    <div class="section-heading vehicle-heading"><div><p class="eyebrow blue-text" data-i18n="vehicles.eyebrow">GET THERE YOUR WAY</p><h2><span class="heading-icon">▰</span> <span data-i18n="vehicles.title">Our Vehicles</span></h2><p class="section-subtitle" data-i18n="vehicles.subtitle">Choose your ride for a comfortable and memorable journey.</p></div><a class="text-link" href="#contact"><span data-i18n="vehicles.link">Ask about a vehicle</span> <span aria-hidden="true">→</span></a></div>
+    <div class="vehicle-grid">
+      <article class="vehicle-card"><img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=85" alt="Comfortable sedan" data-i18n-alt="vehicle.sedan.alt"><div class="vehicle-info"><div><h3 data-i18n="vehicle.sedan.title">Sedan</h3><p data-i18n="vehicle.sedan.copy">Comfortable for small groups</p></div><a href="#contact" class="circle-arrow" aria-label="Ask about sedan" data-i18n-aria="vehicle.sedan.action">↗</a></div></article>
+      <article class="vehicle-card"><img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=900&q=85" alt="SUV ready for a road trip" data-i18n-alt="vehicle.suv.alt"><div class="vehicle-info"><div><h3 data-i18n="vehicle.suv.title">SUV</h3><p data-i18n="vehicle.suv.copy">More space, more comfort</p></div><a href="#contact" class="circle-arrow" aria-label="Ask about SUV" data-i18n-aria="vehicle.suv.action">↗</a></div></article>
+      <article class="vehicle-card"><img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=900&q=85" alt="Passenger van for group travel" data-i18n-alt="vehicle.tempo.alt"><div class="vehicle-info"><div><h3 data-i18n="vehicle.tempo.title">Tempo Traveller</h3><p data-i18n="vehicle.tempo.copy">Perfect for group trips</p></div><a href="#contact" class="circle-arrow" aria-label="Ask about Tempo Traveller" data-i18n-aria="vehicle.tempo.action">↗</a></div></article>
+      <article class="vehicle-card"><img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=900&q=85" alt="Luxury coach for group journeys" data-i18n-alt="vehicle.coach.alt"><div class="vehicle-info"><div><h3 data-i18n="vehicle.coach.title">Luxury Coach</h3><p data-i18n="vehicle.coach.copy">Premium travel experience</p></div><a href="#contact" class="circle-arrow" aria-label="Ask about luxury coach" data-i18n-aria="vehicle.coach.action">↗</a></div></article>
+      <article class="vehicle-card"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=900&q=85" alt="Jeep for adventurous trips" data-i18n-alt="vehicle.jeep.alt"><div class="vehicle-info"><div><h3 data-i18n="vehicle.jeep.title">Jeep</h3><p data-i18n="vehicle.jeep.copy">For adventurous souls</p></div><a href="#contact" class="circle-arrow" aria-label="Ask about Jeep" data-i18n-aria="vehicle.jeep.action">↗</a></div></article>
+    </div>
+  </div></section>
+
+  <section class="section destinations-section" id="destinations"><div class="wrap">
+    <div class="section-heading"><div><p class="eyebrow blue-text" data-i18n="destinations.eyebrow">PLACES THAT STAY WITH YOU</p><h2 data-i18n="destinations.title">Explore Our Top Destinations</h2></div><a class="text-link" href="#contact"><span data-i18n="destinations.link">Plan your trip</span> <span aria-hidden="true">→</span></a></div>
+    <div class="destination-grid">
+      <article class="destination-card" style="--destination-image:url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=85')"><div class="destination-copy"><p class="location"><span aria-hidden="true">⌖ </span><span data-i18n="destination.bali.name">Bali, Indonesia</span></p><p data-i18n="destination.bali.copy">Sun, Sand &amp; Serenity</p></div></article>
+      <article class="destination-card" style="--destination-image:url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=85')"><div class="destination-copy"><p class="location"><span aria-hidden="true">⌖ </span><span data-i18n="destination.paris.name">Paris, France</span></p><p data-i18n="destination.paris.copy">The City of Love</p></div></article>
+      <article class="destination-card" style="--destination-image:url('https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=900&q=85')"><div class="destination-copy"><p class="location"><span aria-hidden="true">⌖ </span><span data-i18n="destination.switzerland.name">Switzerland</span></p><p data-i18n="destination.switzerland.copy">Alps &amp; Adventures</p></div></article>
+      <article class="destination-card" style="--destination-image:url('https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&w=900&q=85')"><div class="destination-copy"><p class="location"><span aria-hidden="true">⌖ </span><span data-i18n="destination.santorini.name">Santorini, Greece</span></p><p data-i18n="destination.santorini.copy">Island Paradise</p></div></article>
+      <article class="destination-card" style="--destination-image:url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=85')"><div class="destination-copy"><p class="location"><span aria-hidden="true">⌖ </span><span data-i18n="destination.dubai.name">Dubai, UAE</span></p><p data-i18n="destination.dubai.copy">Luxury &amp; Modernity</p></div></article>
+    </div>
+  </div></section>
+
+  <section class="reviews-section" id="reviews"><div class="wrap">
+    <div class="section-heading reviews-heading"><div><p class="eyebrow blue-text" data-i18n="reviews.eyebrow">TRAVELER REVIEWS</p><h2 data-i18n="reviews.title">What Our Customers Say</h2><p class="section-subtitle" data-i18n="reviews.subtitle">Real stories from travelers who went a little further.</p></div></div>
+    <div class="reviews-grid">
+      <article class="review-card"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=180&q=80" alt="Sarah Johnson" data-i18n-alt="review.sarah.name"><div><h3 data-i18n="review.sarah.name">Sarah Johnson</h3><p class="stars" aria-label="5 out of 5 stars" data-i18n-aria="reviews.rating">★★★★★</p><blockquote data-i18n="review.sarah.quote">“Amazing experience! The trip was well organized and everything was perfect. Highly recommend TravelGo!”</blockquote></div></article>
+      <article class="review-card"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=180&q=80" alt="Michael Brown" data-i18n-alt="review.michael.name"><div><h3 data-i18n="review.michael.name">Michael Brown</h3><p class="stars" aria-label="5 out of 5 stars" data-i18n-aria="reviews.rating">★★★★★</p><blockquote data-i18n="review.michael.quote">“Best travel agency I've ever used. Great service, amazing destinations, and very professional team.”</blockquote></div></article>
+      <article class="review-card"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=180&q=80" alt="Ava Patel" data-i18n-alt="review.ava.name"><div><h3 data-i18n="review.ava.name">Ava Patel</h3><p class="stars" aria-label="5 out of 5 stars" data-i18n-aria="reviews.rating">★★★★★</p><blockquote data-i18n="review.ava.quote">“Our family trip was effortless from start to finish. The destinations were beautiful and the service was wonderful.”</blockquote></div></article>
+      <article class="review-card"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=180&q=80" alt="David Wilson" data-i18n-alt="review.david.name"><div><h3 data-i18n="review.david.name">David Wilson</h3><p class="stars" aria-label="5 out of 5 stars" data-i18n-aria="reviews.rating">★★★★★</p><blockquote data-i18n="review.david.quote">“Friendly team, comfortable rides, and an unforgettable itinerary. I would happily book with TravelGo again.”</blockquote></div></article>
+    </div>
+  </div></section>
+</main>
+<footer class="footer" id="contact"><div class="wrap footer-grid">
+  <div class="footer-brand"><a class="brand footer-logo" href="#home"><span class="brand-mark">▲</span><span>Travel<span class="brand-blue">Go</span></span></a><p data-i18n="footer.tagline">Explore · Discover · Repeat</p><p class="footer-note" data-i18n="footer.note">Every journey begins with a little curiosity.</p></div>
+  <div class="footer-column"><h3 data-i18n="footer.address.title">Our Address</h3><p>123 Travel Lane, MG Road,<br>Bengaluru, Karnataka – 560001</p><a href="https://maps.google.com/?q=MG+Road+Bengaluru" target="_blank" rel="noreferrer" data-i18n="footer.directions">Get directions ↗</a></div>
+  <div class="footer-column"><h3 data-i18n="footer.contact.title">Contact Us</h3><p><a href="tel:+919876543210">☎ +91 98765 43210</a></p><p><a href="mailto:hello@travelgo.example">✉ hello@travelgo.example</a></p><p data-i18n="footer.hours">Mon–Sat · 9:00 AM–7:00 PM</p></div>
+  <div class="footer-column"><h3 data-i18n="footer.connect.title">Connect With Us</h3><div class="social-links">
+    <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.2 1.6 6L0 24l6.4-1.7a11.8 11.8 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.2-6.2-3.5-8.5ZM12.1 21.8h-.1c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.8 1 1-3.7-.3-.4a9.8 9.8 0 0 1-1.5-5.2c0-5.5 4.5-10 10-10a9.9 9.9 0 0 1 7.1 2.9 9.9 9.9 0 0 1 2.9 7.1c0 5.4-4.5 9.9-9.9 9.9Zm5.5-7.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.8 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5Z"/></svg></a>
+    <a href="https://instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="instagram-gradient" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#feda75"/><stop offset="50%" stop-color="#d62976"/><stop offset="100%" stop-color="#4f5bd5"/></linearGradient></defs><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/></svg></a>
+    <a href="https://facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-9h3l.5-3.5h-3.5V7.3c0-1 .3-1.8 1.8-1.8h1.9V2.4c-.3 0-1.5-.2-2.8-.2-2.8 0-4.7 1.7-4.7 4.9v2.4H6.5V13h3.2v9h3.8Z"/></svg></a>
+    <a href="https://youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube" data-i18n-aria="social.youtube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg></a>
+  </div><a class="footer-contact" href="https://wa.me/919876543210" target="_blank" rel="noreferrer"><span data-i18n="footer.chat">Chat with our team</span> ↗</a></div>
+</div><div class="footer-bottom"><div class="wrap"><span>© <span id="year"></span> <span data-i18n="footer.copyright">TravelGo. All rights reserved.</span></span><span data-i18n="footer.closing">Made for your next great journey.</span></div></div></footer>
+<script src="script.js"></script>
+</body></html>
